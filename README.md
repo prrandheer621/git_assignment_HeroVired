@@ -4,4 +4,8 @@ Created a private repo with git_assignment_HeroVired name, and with a README.md 
 
 Created calc.py file, and added the calculator code.
 
+Added new requirement of raising valueError in divide function.
+
+Added generic except block for division.
+
 Added square root code
