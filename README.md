@@ -7,3 +7,5 @@ Created calc.py file, and added the calculator code.
 Added new requirement of raising valueError in divide function.
 
 Added generic except block for division.
+
+Added square root code
