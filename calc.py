@@ -30,6 +30,8 @@ if __name__ == "__main__":
     print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
   except ValueError as e:
     print(e)
+  except:
+    print('Division error.')
   # TODO: Uncomment and test the square root feature.
   # num3 = 25
   # print(f"The square root of {num3} = {calculator.square_root(num3)}")
