@@ -41,8 +41,22 @@ Question 2
      git add .attributes
      git commit -m "Large file commit"
      git push
-4. It got successfully pushed.
+5. It got successfully pushed.
 
 Question 3
-1. 
+1. Created a geometry-calculator branch from main
+2. Created circle-area branch from geometry-calculator
+3. Added circle area code, ran 'git stash' to save the incomplete implemented code
+4. Created rectangle-area branch from geometry-calculator
+5. Added rectangle area code, and did 'git stash'
+6. Switched back to cicrle area branch
+7. Ran 'git stash list' to see the stashing list of branches.
+8. Selected circle area stash using 'git stash apply stash@{0}'
+9. Committed the code, and pushed.
+10. Switched to rectagle-area branch, and selected stash using 'git stash apply stash@{1}'
+11. Then committed code and pushed.
+12. Raised PR to merge geometry-calculator branch to dev, and merged.
+13. Raised PR to merge cicrle-area branch to dev, and merged.
+14. Raised PR to merge rectangle-area branch to dev, and merged.
+15. Raised PR to merge DEV to main, and added Kavitha as a reviewer to approve and merge.
 
